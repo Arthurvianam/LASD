@@ -1,6 +1,6 @@
 # Laboratório de Arquitetura de Sistemas Digitais
 
-Repositório contendo os projetos, exercícios e experimentos realizados durante o curso de **Arquitetura de Sistemas Digitais**.
+Repositório contendo as SPRINTS realizadas durante o curso de **Lab Arquitetura de Sistemas Digitais**.
 
 ---
 

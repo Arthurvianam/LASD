@@ -1,0 +1,52 @@
+$date
+Tue Jun 10 22:07:40 2025
+$end
+$version
+Riviera-PRO Version 2023.04.112.8911
+$end
+$timescale
+1 ns
+$end
+
+$scope module MUX_2x1_4bits_TB $end
+$var reg 4 ! Ia [3:0] $end
+$var reg 4 " Ib [3:0] $end
+$var reg 1 # select $end
+$var reg 4 $ Out_Mux [3:0] $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b0 !
+b1 "
+0#
+b0 $
+$end
+#10
+1#
+b1 $
+#20
+b10 !
+b11 "
+0#
+b10 $
+#30
+1#
+b11 $
+#40
+b100 !
+b101 "
+0#
+b100 $
+#50
+1#
+b101 $
+#60
+b110 !
+b111 "
+0#
+b110 $
+#70
+1#
+b111 $
+#80

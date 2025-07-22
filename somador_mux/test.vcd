@@ -1,0 +1,40 @@
+$date
+Wed Jun 11 19:36:41 2025
+$end
+$version
+Riviera-PRO Version 2023.04.112.8911
+$end
+$timescale
+1 ns
+$end
+
+$scope module Somador_Mux_4bits_TB $end
+$var reg 4 ! Ia [3:0] $end
+$var reg 4 " Ib [3:0] $end
+$var reg 4 # Ic [3:0] $end
+$var reg 1 $ sel_mux $end
+$var reg 4 % resultado_final [3:0] $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b11 !
+b101 "
+b1 #
+0$
+b1000 %
+$end
+#10
+b111 !
+b0 "
+b10 #
+1$
+b1100 %
+b1001 %
+#20
+b1 !
+b10 "
+b100 #
+0$
+b11 %
+#30

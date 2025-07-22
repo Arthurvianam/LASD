@@ -1,0 +1,33 @@
+$date
+Thu Jun  5 08:49:04 2025
+$end
+$version
+Riviera-PRO Version 2023.04.112.8911
+$end
+$timescale
+1 ns
+$end
+
+$scope module somador_4bitys_tb $end
+$var reg 4 ! Ia [3:0] $end
+$var reg 4 " Ib [3:0] $end
+$var reg 4 # Out [3:0] $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b1 !
+b10 "
+b11 #
+$end
+#10
+b101 !
+b11 "
+b1000 #
+#20
+b11 !
+b101 "
+#30
+b1 "
+b100 #
+#40
